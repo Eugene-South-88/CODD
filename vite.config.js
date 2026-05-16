@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import { quasar, transformAssetUrls } from '@quasar/vite-plugin'
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/CODD/' : '/',
+  base: '/CODD/',
   plugins: [
     vue({
       template: { transformAssetUrls }
