@@ -9,10 +9,29 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.32"
+    "@quasar/extras": "^1.18.0",
+    "pinia": "^3.0.4",
+    "quasar": "^2.19.3",
+    "vue": "^3.5.32",
+    "vue-router": "^5.0.7"
   },
   "devDependencies": {
+    "@quasar/vite-plugin": "^1.11.0",
     "@vitejs/plugin-vue": "^6.0.6",
+    "sass-embedded": "^1.99.0",
     "vite": "^8.0.10"
-  }
+  },
+  "description": "This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eugene-South-88/CODD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eugene-South-88/CODD/issues"
+  },
+  "homepage": "https://github.com/Eugene-South-88/CODD#readme"
 }
