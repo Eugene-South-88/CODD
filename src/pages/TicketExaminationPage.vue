@@ -240,10 +240,9 @@ onMounted(() => {
   border-color: #bdbdbd;
 }
 
-/* Стили для выбранного ответа */
 .answer-btn--selected {
   border-color: var(--q-primary) !important;
-  background: rgba(25, 118, 210, 0.04) !important; /* Легкая подсветка основным цветом Quasar */
+  background: rgba(25, 118, 210, 0.04) !important;
 }
 
 .result-card {
@@ -258,6 +257,6 @@ onMounted(() => {
   line-height: 1.6;
 }
 .pointer-events-none {
-  pointer-events: none; /* Чтобы клик обрабатывался всей кнопкой, а не только радио-точкой */
+  pointer-events: none;
 }
 </style>
